@@ -49,16 +49,16 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } } ) => {
                 </Grid>
 
                 <Grid className={styles.btnGrid} > 
-                 <Button  style={{backgroundColor: '#4A148C'}} className={styles.btnMyGov}  variant="contained" color="primary" href="https://covid19.ca.gov/">
+                 <Button  style={{backgroundColor: '#c97229'}} className={styles.btnMyGov}  variant="contained" color="primary" href="https://covid19.ca.gov/">
                 CA.GOV
                 </Button> 
-                <Button style={{backgroundColor: '#004D40'}} className={styles.btnMyGov}  variant="contained" color="primary" href="https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days">
+                <Button style={{backgroundColor: '#5c5cff'}} className={styles.btnMyGov}  variant="contained" color="primary" href="https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days">
                  CDC 
                 </Button>
-                 <Button style={{backgroundColor: '#900C3F'}} className={styles.btnMyGov}  variant="contained" color="primary" href="https://covid19.who.int/">
+                 <Button style={{backgroundColor: '#5c5c5c'}} className={styles.btnMyGov}  variant="contained" color="primary" href="https://covid19.who.int/">
                  WHO
                 </Button>
-                <Button style={{backgroundColor: '#581845'}} className={styles.btnMyGov}  variant="contained" color="primary" href="https://get-tested-covid19.org/">
+                <Button style={{backgroundColor: '#00db00'}} className={styles.btnMyGov}  variant="contained" color="primary" href="https://get-tested-covid19.org/">
                  Test Sites
                 </Button>
                 </Grid>
